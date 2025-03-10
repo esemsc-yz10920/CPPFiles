@@ -13,7 +13,7 @@ int main() {
         std::cout << *iter << " ";
     }
     std::cout << std::endl;
-
+    
     // Demonstrating other operations with iterators
     std::cout << "First element: " << *numbers.begin() << std::endl;
     std::cout << "Last element: " << *(numbers.end() - 1) << std::endl;
